@@ -1,0 +1,22 @@
+Sprint 2 Backlog
+
+Meetings Schedules
+Scrum meeting 1: 11/6/17
+Scrum meeting 2: 11/8/17
+Scrum meeting 3: 11/10/17
+
+
+Backend:
+- Game algorithm finished
+- one side of client/server connection finished
+
+AI: 
+        -random move
+	-look ahead one move in tree
+	-minimax tree
+	-alpha-beta pruning
+
+GUI: 
+	-data transferring between windows
+	-values change inside pits for each game state
+	

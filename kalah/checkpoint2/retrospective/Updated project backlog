@@ -1,0 +1,41 @@
+Product Backlog 
+
+● GUI 
+○ Visible Board   //finished
+○ Visible Kalah pieces 
+○ Display current # of stones in pit
+○ User makes move by typing position
+○ Redraw when player or AI makes a move (changes game state)
+○ Command line inputs
+○ Graphic board 
+○ Display winner
+○ Welcome display before user starts game             //finished
+○ Displays message if user wants to quit game before it ends  //finished
+
+ ● AI 
+○ Min Max tree 
+○ Take input from game state
+○ Iterative deepening
+○ Computer identifies all possible valid moves
+○ Chooses best move out of all possible moves
+○ Computer looks ahead one move in tree
+○ Alpha-beta pruning
+○ Keep track of a couple moves ahead in a tree 
+○ random move
+○ computer looks ahead one move in tree
+
+● Kalah Backend       //section finished
+ ○ Array that represents game state
+ ○ Can take input from AI and player to update game state
+ ○ Require rules to be met to edit game state / make moves 
+ ○ Throws error if the player makes invalid move, has them retry 
+ ○ Send updated game state to GUI
+ ○ Receive commands from player input
+ ○ Handle cases as they come ○ END state, when someone wins
+ ○ Have output be compatible with client
+ ○ Can use 2d array to keep track of seeds 
+
+ ● Client - Server interface 
+○ Function to have the backend talk to a remote server 
+○ Give program input remotely from client 
+○ Send GUI to client

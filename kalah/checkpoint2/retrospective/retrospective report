@@ -1,0 +1,24 @@
+Retrospective
+
+  At the start of the project, we noted the major components of it to be the backend/algorithmic portion with the client/server side,
+the artificial intelligence side containing elements like the min-max tree and alpha-beta pruning, the graphical user interface. 
+Thus, we let each member of the group take one component to be worked on each sprint. However, after starting, we realized that the 
+artificial intelligence side depended on the backend code which meant that the backend side needed to be finished first. Additionally,
+we learned the rest of the artificial intelligence lecture a couple of days before the end of sprint one and did not understand it well 
+enough to attempt it. The group roles also had to be rearranged as one of the group members originally assigned to backend turned out to
+have more AI knowledge.
+  Overall, our sprint 1 results differed from our original plans because we had two people working on the backend with one person on 
+the GUI as opposed to each of us working on a separate component. Our original plans indicated that the person working on the backend 
+side would have function outlines and necessary variables created by the end of the sprint. However, because we had twice the number of 
+people working on it as planned, we were able to finish the entire backend code for the game.
+  On the GUI side, we intended just to have a static game board setup when the program was run. After spending a bit of time with the swing
+interface we quickly realized the GUI could be handled much more efficiently than previously thought. Due to this fact we were able to 
+complete a welcome screen, difficulty option screen, and a (semi) dynamic game board that has the ability to vary the number of pits. 
+This was in contrast to what was planned in sprint 1 of just a static game board that displayed the pits with no interaction.
+  As the sprints progress, some changes that might need to be made would be greater communication between all the different work portions 
+so that everyone understands how the game works and runs. Ways to do this might include more commenting in the code or a more in-depth 
+briefing during scrum meetings or lab time so that the GUI side understands what functions it should call for certain features from 
+backend, for example. Additionally, as two members worked on the backend portion to set the foundation, the member not working on the AI 
+or GUI might do error handling for both of them or offer help for research or certain functions where possible to offset the work put on 
+the other team members.
+

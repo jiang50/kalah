@@ -1,0 +1,5 @@
+Scrum meeting 2
+11/2/17
+
+-Talked about differences in mancala game design algorithm and added functions and constructors to reflect this
+-Talked about biggest challenges with the AI side (iterative deepening)

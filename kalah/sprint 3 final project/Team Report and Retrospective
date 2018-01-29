@@ -1,0 +1,29 @@
+Jacob Goldsworthy
+Riya Santra
+Yucheng Jiang
+Team Report
+Organization Plan
+We viewed the most important parts of the project as the backend, GUI, and AI. As Yucheng had the most experience with artificial intelligence, he was in charge of the AI part while Riya and Jacob took the backend and GUI parts respectively. As we thought early on that the backend was important to set a foundation for the GUI and AI to be written, Riya passed an initial copy of the backend to Yucheng who modified it to fit more of the AI’s needs. After realizing the purpose and importance of the server, Riya worked on the data server side of the connection while Jacob worked on the client side to create server connections for AI and non-AI players and modified the data server to work with them. The responsibilities ended up getting divided up along those lines, however, the server and GUI involved much more work than we thought leading Jacob to have to work on multiple parts as his extensive GUI knowledge needed to be applied to all the different code that ultimately had to be integrated with the GUI. Given what we know now, we probably should have had one more person at least learn the GUI side or work a little bit on it to reduce the load that the person working with the GUI had.
+
+Major Problems Encountered
+There was a bit of work on the backend side ensuring that all the rules of Mancala were accounted for. The AI side had difficulty initially with figuring out free turn and iterative deepening.The biggest difficulty with the GUI was probably the implementation of the screen updating at the correct time which later became a little more complex when we realized that the screen would lock up while the AI was making a move. Although our game still functions, given more time, we probably would have multithreaded the windows to compensate for the lag. 
+
+Retrospective
+At the beginning of this sprint, we intended to finish up the server and complete the AI. 
+The major things we worked on this sprint were finishing up the sprint and the different difficulty levels of the AI. 
+
+For the AI part, we implemented iterative deepening search, so that AI can give the best move within time limit. To improve the performance of AI, we updated the subtree function to make it consider free move so only the best state after free turn will be in the minmax tree. As a result, our AI can make continuous free moves to achieve optimal state by accurate calculation. We also did experiments on different utility functions to select the one with best performance. Finally, our AI, when played at the hard-difficulty level, can win almost every game with human players.
+
+This sprint, we didn’t focus much on GUI and decided to move more of our efforts to the Server/Client interaction. Due to the large amount of testing that is required in order to make sure there are no bugs in the interaction, we had little time to update the GUI for non-local games. Given more time, we probably would focus on improving this aspect. In regards to the server, we added threads for connecting players, a board that the server keeps track of, and handling of commands sent by the client. On the client side we implemented appropriate responses to any server commands and move functionality that is present in the local versions of the game.
+
+Overall, our actual trend line had a somewhat linear decrease compared to the trendline we predicted for the beginning of this project. The main reasons for the decrease were that the predicted trendline decreased daily by a constant small amount. However, in reality, our initial progress was a little slow as all of our focus had to be on creating an algorithm that the GUI and AI could run off of. Additionally, the somewhat linear trend that actually occurred saw a mostly consistent decrease as the team members finished off the sprint backlog items listed every week and did their part to put in hours to create features. Because we never had an items overflow to the next week’s sprint, we were able to stay on track to finish this project.
+
+While we weren’t able to implement minor details that we wanted to for this project, we would still say that we definitely created something that we are proud of!
+
+Team Grade Distribution
+“These multipliers represent an accurate view of our relative contributions on the project that we all agree with.”
+
+Riya: .94
+Jacob: 1.03
+Yucheng: 1.03
+

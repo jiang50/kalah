@@ -1,0 +1,20 @@
+In order to start our game you will need to run the file called GUI_class.java. This will bring you to a welcome screen that you can select begin. After selecting begin you will be brought to an options screen (Game_options.java) where you can select a local or online game.
+
+LOCAL:
+There are 2 options for local. Player versus Player and Player versus AI
+
+Player vs Player(Board_window.java): From the options screen select the PVP button and choose your board options. After you are satisfied with your options, select begin and you will be brought to the game board. The red arrow will indicate whose turn it is.
+Player vs AI(AI_local.java): From the options screen select the PVAI button and choose your board options. After you are satisfied with your options, select begin and you will be brought to the game board. The AI’s moves will be put into the terminal when it is their turn.
+ONLINE:
+There are 5 different buttons associated with online play. Player client connecting to a server, AI client connecting to a server, server just hosting the game,server running it’s own Player, server running it’s own AI.
+
+PLEASE MAKE SURE A SERVER IS RUNNING BEFORE TRYING TO CONNECT VIA A CLIENT
+Server just hosting the game(Server_Host_GUI.java): On the game options screen select “Host a Server” in the bottom left. You will be brought to a new window in which you can select your board configuration and can type in a socket. After all fields are set appropriately, select Host and then click begin. This will run the server and you will receive information via the command prompt.
+Server hosting and running own player(Server_Player_GUI.java):  On the game options screen select “Host a Server” in the bottom left. You will be brought to a new window in which you can select your board configuration and can type in a socket. After all fields are set appropriately, select Player. This will run the server and a Player on that server. Your input will be via the console but your moves will show up in the GUI.
+Server hosting and running own AI(Server_AI_GUI.java): On the game options screen select “Host a Server” in the bottom left. You will be brought to a new window in which you can select your board configuration and can type in a socket. After all fields are set appropriately, select AI. This will run the server and a AI on that server. Message will display on the console showing what the AI is doing on it’s turn.
+Player connecting to a server(User_Game_Window.java): From the game options window, type in the socket that you want to connect to then hit the Player button. After both of these tasks are completed select begin and you will be connected to the server. The message “Connected to Server” will display in the bottom right of the GUI if you are waiting on another player. The board will update after two players are connected. You will see the board state on the GUI but your input will be from the console.
+AI connecting to a server(AI_window.java): From the game options window, type in the socket that you want to connect to then hit the AI button then select the difficulty of the AI. After both of these tasks are completed select begin and you will be connected to the server. The message “Connected to Server” will display in the bottom right of the GUI if you are waiting on another player. The board will update after two players are connected. You will see the board state on the GUI and the moves made by the AI will be on the console.
+
+Optimal setup for this is a client connects to just a host then another client connects to that host. This keeps each console’s messages separate from each other.
+
+
